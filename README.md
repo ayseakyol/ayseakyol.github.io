@@ -1,7 +1,7 @@
 
 # AYSE AKYOL
 -----------------
-## Web Developer :smiley:
+## Web Developer
 
 ### Contact
 - E-mail: [ayseakyol.22309@gmail.com](https://ayseakyol.22309@gmail.com)  
