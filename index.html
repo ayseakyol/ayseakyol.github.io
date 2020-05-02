@@ -5,6 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>AyseAkyolGithubIO</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module">
+      window.onload = () => import("./app/index.js");
+    </script>
   </head>
-  <body></body>
+  <body>
+    <div class="container-fluid mycontainer">
+      <div class="left">
+        <!-- burasi sol taraf divi -->
+        <div>
+          <h1>Ayse Akyol</h1>
+          <img id="myFoto" alt="my foto" />
+        </div>
+        <div>
+          <h2>My Github Account</h2>
+          <button class="btn btn-dark" id="btnRepos">Repos</button>
+          <button class="btn btn-dark" id="btnSpclRepos">
+            Special Repos
+          </button>
+        </div>
+
+        <div id="root-repo"></div>
+        <div id="root-spcl-repo"></div>
+      </div>
+
+      <div class="right">
+        <div>
+          <h2 class="mb-2">Contact</h2>
+
+          <h3>
+            E-mail:
+            [ayseakyol.22309@gmail.com](https://ayseakyol.22309@gmail.com)
+          </h3>
+          <h3>Phone: +32 498 40 29 42</h3>
+          <h3>Adress: Sint-Truidersteenweg, Borgloon</h3>
+        </div>
+
+        <div class="mt-4">
+          <h2 class="mb-2">Education</h2>
+          <h3>1.High School: Zubeyde Hanim High School</h3>
+          <h3>
+            2.University: Bogazici University (Psychological Counseling)
+          </h3>
+        </div>
+
+        <div class="mt-4">
+          <h2 class="mb-2">Tech Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="mt-4">
+          <h2 class="mb-2">My Skills</h2>
+          <ul>
+            <li>Self Motivation</li>
+            <li>Stress Management</li>
+            <li>Adaptability</li>
+            <li>Decision Making</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
