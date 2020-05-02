@@ -1,0 +1,39 @@
+body {
+  margin: 5%;
+  font-weight: bold;
+}
+
+.mycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1 {
+  color: #279168;
+}
+.wrap {
+  width: 100%;
+}
+.image {
+  background-image: url("webdeveloper.jpeg");
+  position: relative;
+  height: 100vh;
+}
+.image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.text {
+  color: #fff;
+  position: relative;
+}
+
+img {
+  border-radius: 50%;
+  width: 20%;
+}
