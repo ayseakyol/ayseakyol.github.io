@@ -1,0 +1,19 @@
+{
+  "name": "ayseakyol.github.io",
+  "version": "1.0.0",
+  "description": "----------------- ## Web Developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayseakyol/ayseakyol.github.io.git"
+  },
+  "author": "ayse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayseakyol/ayseakyol.github.io/issues"
+  },
+  "homepage": "https://github.com/ayseakyol/ayseakyol.github.io#readme"
+}

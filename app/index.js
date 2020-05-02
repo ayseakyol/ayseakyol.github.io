@@ -20,7 +20,7 @@ document.getElementById("btnRepos").onclick = async () => {
 document.getElementById("btnSpclRepos").onclick = async () => {
   try {
     let repos = ["booklist-app", "budget-app", "calculator-refactor"];
-    const rootSpcl = document.getElementById("root-repo");
+    const rootSpcl = document.getElementById("root-spcl-repo");
     rootSpcl.innerHTML = "";
     for (let repo of repos) {
       const url = `https://api.github.com/repos/ayseakyol/${repo}`;
