@@ -20,16 +20,19 @@ class GithubIo {
       const anchor = document.createElement("a");
       anchor.href = repo.html_url;
       anchor.textContent = repo.name;
+
       const liEl = document.createElement("li");
       liEl.appendChild(anchor);
+
       olEl.appendChild(liEl);
-      repos.appendChild(anchor);
-      repos.appendChild(document.createElement("br"));
     }
+    repos.appendChild(olEl);
     return repos;
   }
   renderSpclRepos() {
     const spclRepos = document.createElement("div");
+
+    const ulEl = document.createElement("ul");
 
     /* let ol = document.createElement("ol");
     spclRepos.appendChild(ol);
@@ -37,8 +40,12 @@ class GithubIo {
     const anchor = document.createElement("a");
     anchor.href = this.data.html_url;
     anchor.textContent = this.data.name;
-    spclRepos.appendChild(anchor);
-    spclRepos.appendChild(document.createElement("br"));
+
+    const liEl = document.createElement("li");
+    liEl.appendChild(anchor);
+
+    ulEl.appendChild(liEl);
+    spclRepos.appendChild(ulEl);
 
     return spclRepos;
   }
