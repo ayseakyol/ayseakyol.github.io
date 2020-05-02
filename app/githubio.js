@@ -14,10 +14,15 @@ class GithubIo {
     head.textContent = "My Repos";
     repos.appendChild(head);
 
+    const olEl = document.createElement("ol");
+
     for (let repo of this.data) {
       const anchor = document.createElement("a");
       anchor.href = repo.html_url;
       anchor.textContent = repo.name;
+      const liEl = document.createElement("li");
+      liEl.appendChild(anchor);
+      olEl.appendChild(liEl);
       repos.appendChild(anchor);
       repos.appendChild(document.createElement("br"));
     }
@@ -26,10 +31,9 @@ class GithubIo {
   renderSpclRepos() {
     const spclRepos = document.createElement("div");
 
-    let head = document.createElement("h3");
-    head.textContent = "My Special Repos";
-    spclRepos.appendChild(head);
-
+    /* let ol = document.createElement("ol");
+    spclRepos.appendChild(ol);
+ */
     const anchor = document.createElement("a");
     anchor.href = this.data.html_url;
     anchor.textContent = this.data.name;
