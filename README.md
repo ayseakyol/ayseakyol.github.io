@@ -6,7 +6,7 @@
 ### Contact
 - E-mail: [ayseakyol.22309@gmail.com](https://ayseakyol.22309@gmail.com)  
 - Phone: +32 498 40 29 42  
-- Adress: Sint-Truidersteenweg, Borgloon  
+- Adress: Hasselt 
 
 
 ### Education
