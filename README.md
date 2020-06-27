@@ -12,12 +12,23 @@
 ### Education
 1. **High School**: Zubeyde Hanim High School
 2. **University**: *Bogazici University* (Psychological Counseling + Preschool Education)
+3. **The Coding School**: Hack Your Future 
 
-### Work Experience  
-> 2007 - 2012 Preschool Teacher  
-2012 - 2014 School Director  
-2014 - 2018 Psychological Counselor
 
+### Tech Skills
+
+
+- [x] HTML 
+- [x] CSS 
+- [x] Bootstrap
+- [x] Java Script  
+- [x] Node.js
+- [x] SQLite
+- [x] React
+
+ [My github account](https://github.com/ayseakyol/)  
+ 
+ 
 ### Skills  :ok_hand:
 
 
@@ -27,16 +38,8 @@
 | Communication | Adaptability |  
 | Decision Making | Time Management |
 
-### Tech Skills
 
-
-- [x] HTML, CSS  
-- [ ] Java Script  
-- [ ] Node,JS
-
-
- [My github account](https://github.com/ayseakyol/)  
-
-
-
-# ayseakyol.github.io
+### Work Experience  
+> 2007 - 2012 Teacher  
+2012 - 2014 School Director  
+2014 - 2018 Psychological Counselor
