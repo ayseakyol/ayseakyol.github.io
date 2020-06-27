@@ -37,6 +37,7 @@
 | Self-Motivation  | Conflict resolution |   
 | Communication | Adaptability |  
 | Decision Making | Time Management |
+| Hardworking | Empathy |
 
 
 ### Work Experience  
