@@ -11,7 +11,7 @@
 
 ### Education
 1. **High School**: Zubeyde Hanim High School
-2. **University**: *Bogazici University* (Psychological Counseling + Preschool Education)
+2. **University**: *Bogazici University* (Psychological Counseling)
 3. **The Coding School**: Hack Your Future 
 
 
