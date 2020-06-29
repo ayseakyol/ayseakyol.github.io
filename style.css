@@ -1,6 +1,20 @@
-body,
-a {
-  margin: 5%;
+.hello {
+  color: #77b2f5;
+  font-size: 8vh;
+}
+#down {
+  width: 15vh;
+  height: 15vh;
+  padding: 2vh;
+}
+.enterance-first {
+  min-height: 100vh;
+  padding-top: 30vh;
+  background-image: url("download.jpeg");
+  min-height: 100vh;
+  background-size: cover;
+}
+#mycontainer {
   font-size: 26px;
   color: #253730;
   background-image: linear-gradient(
@@ -8,26 +22,98 @@ a {
       rgba(255, 255, 255, 0.8)
     ),
     url("webdeveloper.jpeg");
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   font-family: "Times New Roman", Times, serif;
 }
-
-.mycontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+#mycontainer h2 {
+  color: rgb(75, 148, 87);
 }
-h1,
-h2 {
-  color: #279168;
+.head {
+  color: rgb(9, 28, 153);
+  font-size: 7vh;
+}
+#github {
+  background-image: url(https://cdn-images-1.medium.com/max/2000/1*wzEf4qVNT7mUeMIeQWTJbg.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+  color: #37d1e6;
+}
+.gthb-acc {
+  font-size: 8vh;
+}
+a {
+  color: #5197cf;
 }
 img {
-  border-radius: 50%;
-  width: 15%;
+  border-radius: 100%;
+  width: 8vh;
 }
 .buttonDiv {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+.btn-cntct {
+  font-size: 4vh;
+}
+#enterance {
+  min-height: 100vh;
+  padding-top: 30vh;
+  background-image: url("bckgrnd.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.more {
+  color: #279168;
+  font-size: 5vh;
+}
+.btn-gthb {
+  color: white;
+  font-size: 5vh;
+}
+.myname,
+h4 {
+  font-size: 10vh;
+  color: white;
+  text-align: center;
+}
+#contact {
+  min-height: 94vh;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.grays-cheltenham.co.uk%2Fwp-content%2Fuploads%2F2015%2F09%2Fcontact-background.jpg&f=1&nofb=1");
+  background-size: cover;
+  color: rgb(62, 102, 233);
+  font-size: bold;
+}
+#copyright {
+  font-size: 16px;
+  background-color: #f4f4f4;
+}
+.ccm {
+  padding-top: 70vh;
+}
+#back2Top {
+  width: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #ddd;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #ddf;
+  color: #000;
 }
