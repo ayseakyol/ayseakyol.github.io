@@ -12,74 +12,159 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="module">
       window.onload = () => import("./app/index.js");
     </script>
   </head>
   <body>
-    <div class="container-fluid mycontainer">
-      <div class="left">
-        <!-- burasi sol taraf divi -->
-        <div>
-          <h1>Ayse Akyol</h1>
-          <img id="myFoto" src="ayse.jpg" alt="my foto" />
-        </div>
-        <div>
-          <h2>My Github Account</h2>
-          <div class="buttonDiv">
-            <div>
-              <button class="btn btn-dark btn-lg" id="btnRepos">
-                My Github Repos
-              </button>
-              <div id="root-repo"></div>
-            </div>
-            <div>
-              <button class="btn btn-dark btn-lg" id="btnSpclRepos">
-                My Special Repos
-              </button>
-              <div id="root-spcl-repo"></div>
-            </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Ayse Akyol</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#github">Github Account</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
         </div>
+      </nav>
+    </header>
+
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
+
+    <div class="enterance-first container-fluid text-center">
+      <h1 class="hello">Hello World!</h1>
+      <h1 class="myname">
+        Who is Ayse Akyol?
+      </h1>
+      <a href="#enterance"
+        ><img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.designtrends.com%2Fwp-content%2Fuploads%2F2015%2F11%2F28161520%2FCircular-Download-Icon.jpg&f=1&nofb=1"
+          id="down"
+      /></a>
+    </div>
+
+    <div class="container-fluid text-center" id="enterance">
+      <h1 class="myname">
+        Full Stack Web Developer
+      </h1>
+      <a class="more btn btn-light" href="#mycontainer">More About Me</a>
+    </div>
+
+    <div class="container-fluid pt-5" id="mycontainer">
+       <div class="row">
+        <div class="col-sm-5 col-lg-6 text-center">
+          <h2>Ayse Akyol</h1>
+          <img class="ml-5" id="myFoto" src="ayse.jpg" alt="my foto" />
+        </div>
+        <div class="col-sm-7  col-lg-6">
+          <h2 class="mb-2">Education</h2>
+          <h3>High School: Zubeyde Hanim High School</h3>
+          <h3>
+            University: Bogazici University (Psychological Counseling)
+          </h3>
+          <h3>Coding School: Hack Your Future Belgium</h3>
+        </div>
       </div>
 
-      <div class="right">
-        <div>
-          <h2 class="mb-2">Contact</h2>
-          <a href="http://ayseakyol.22309@gmail.com">
-            E-mail: ayseakyol.22309@gmail.com
-          </a>
-          <h3>Phone: +32 498 40 29 42</h3>
-          <h3>Adress: Sint-Truidersteenweg, Borgloon</h3>
+      <div class="row">
+        <div class="col-sm-5  col-lg-8 ml-5 mt-5" >
+        <h2>Tech Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>SQLite</li>
+          <li>React</li>
+        </ul>
         </div>
 
-        <div class="mt-4">
-          <h2 class="mb-2">Education</h2>
-          <h3>1.High School: Zubeyde Hanim High School</h3>
-          <h3>
-            2.University: Bogazici University (Psychological Counseling)
-          </h3>
-        </div>
-
-        <div class="mt-4">
-          <h2 class="mb-2">Tech Skills</h2>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
-
-        <div class="mt-4">
-          <h2 class="mb-2">My Skills</h2>
-          <ul>
-            <li>Self Motivation</li>
-            <li>Stress Management</li>
-            <li>Adaptability</li>
-            <li>Decision Making</li>
-          </ul>
-        </div>
+      <div class="col-sm-7 col-lg-3 mt-5">
+        <h2 class="mb-2">Soft Skills</h2>
+        <ul>
+          <li>Self Motivation</li>
+          <li>Flexibility</li>
+          <li>Analytical</li>
+          <li>Adaptability</li>
+          <li>Hardworking</li>
+          <li>Empathy</li>
+          <li>Decision Making</li>
+          <li>Willingness to Learn</li>
+        </ul>
+      </div>
+      </div>
+    
+      <div class="row">
+        <a class="btn-gthb btn btn-secondary" href="#github">My Github Info</a>
       </div>
     </div>
+    </div>
+
+   
+    <div id="github" class="p-5 ">
+      <h2 class="gthb-acc text-center">My Github Account</h2>
+      <div class="buttonDiv row">
+        <div class="col-sm-5 col-lg-9">
+          <button class="btn btn-info btn-lg" id="btnSpclRepos">
+            My Special Repos
+          </button>
+          <p class="pt-2">Please, click above button</p>
+          <div id="root-spcl-repo"></div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <a href="https://github.com/ayseakyol?tab=repositories" class="btn btn-info btn-lg " id="btnRepos">
+            My Github Account
+          </a>
+          <p class=" pt-2">Please, click above button</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <a class="btn-cntct btn text-white pt-5" href="#contact">Contact with Me</a>
+      </div>
+    </div>
+  
+    <div id="contact" class="p-5">
+        <h3 class="p-5 head">Contact</h3>
+        <h3 class="p-5">
+          E-mail Me At: <br>
+          ayseakyol.22309@gmail.com
+        </h3>
+        <h3 class="p-5">Phone: +32 498 40 29 42</h3>
+        <h3 class="p-5">Adress: Hasselt</h3>
+      
+    </div>
+    <footer id="copyright" class="container-fluid py-3">
+      <div class="row">
+        <div class="col-8">
+          <span>Copyright © 2020 ayseakyol</span>
+        </div>
+        <div class="col-4 text-right">
+          <a class="text-info" 
+            href="https://github.com/ayseakyol/">https://github.com/ayseakyol/</a>
+        </div>
+      </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
