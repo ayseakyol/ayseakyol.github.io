@@ -36,10 +36,11 @@
 
 |  MY        |  Skills         |
 |---------------|-----------------|
-| Self-Motivation  | Conflict resolution |   
-| Communication | Adaptability |  
+| Self-Motivation  | Analytical |   
+| Willingness to Learn | Adaptability |  
 | Decision Making | Time Management |
 | Hardworking | Empathy |
+| Team Player | Fast Learner |
 
 
 ### Work Experience  
