@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .hello {
   color: #77b2f5;
   font-size: 8vh;
